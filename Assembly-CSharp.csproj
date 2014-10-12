@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C0736E93-4430-C3D4-E5D8-9C86C99F710C}</ProjectGuid>
+	<ProjectGuid>{3FFF502B-3D90-8876-9417-50E87BCFB925}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,16 +46,105 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Completed\Simple Webcam\Scripts\DEMOSceneSelecter.cs" />
-     <Compile Include="Assets\Completed\Simple Webcam\Scripts\Webcam.cs" />
-     <Compile Include="Assets\Completed\Simple Webcam\Scripts\WebcamWebPlayer.cs" />
-     <Compile Include="Assets\Completed\Simple Webcam\Scripts\WebcamWebPlayerController.cs" />
      <Compile Include="Assets\Facetracking Starter Kit\Scripts\Kinect\AnimUnits.cs" />
      <Compile Include="Assets\Facetracking Starter Kit\Scripts\Kinect\FaceTrackingExample.cs" />
      <Compile Include="Assets\Facetracking Starter Kit\Scripts\Kinect\ImageFeedback.cs" />
      <Compile Include="Assets\Facetracking Starter Kit\Scripts\Kinect\KinectBinder.cs" />
      <Compile Include="Assets\Facetracking Starter Kit\Scripts\PoseAnimator.cs" />
      <Compile Include="Assets\Facetracking Starter Kit\Scripts\Spin.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\ComicFilterSample\ComicFilterSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\ConvexHullSample\ConvexHullSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\DetectFaceSample\DetectFaceSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\DrawingSample\DrawingSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\Feature2DSample\Feature2DSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\HoughLinesPSample\HoughLinesPSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\OpenCVForUnitySample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\Texture2DToMatSample\Texture2DToMatSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\ThresholdSample\ThresholdSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\TouchController.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\WebCamTextureDetectFaceSample\WebCamTextureDetectFaceSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\Samples\WebCamTextureToMatSample\WebCamTextureToMatSample.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\DisposableObject.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\DisposableOpenCVObject.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\calib3d\Calib3d.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\calib3d\StereoBM.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\calib3d\StereoSGBM.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\contrib\Contrib.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\contrib\FaceRecognizer.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\contrib\StereoVar.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Algorithm.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Core.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\CvException.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\CvType.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Mat.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfByte.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfDMatch.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfDouble.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfFloat.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfFloat4.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfFloat6.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfInt.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfInt4.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfKeyPoint.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfPoint.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfPoint2f.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfPoint3.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfPoint3f.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\MatOfRect.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Point.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Point3.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Range.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Rect.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\RotatedRect.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Scalar.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\Size.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\core\TermCriteria.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\DMatch.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\DescriptorExtractor.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\DescriptorMatcher.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\FeatureDetector.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\Features2d.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\GenericDescriptorMatcher.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\features2d\KeyPoint.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\gpu\DeviceInfo.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\gpu\Gpu.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\gpu\TargetArchs.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\highgui\Highgui.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\highgui\VideoCapture.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\imgproc\CLAHE.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\imgproc\Imgproc.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\imgproc\Moments.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\imgproc\Subdiv2D.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvANN_MLP.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvANN_MLP_TrainParams.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvBoost.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvBoostParams.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvDTree.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvDTreeParams.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvERTrees.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvGBTrees.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvGBTreesParams.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvKNearest.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvNormalBayesClassifier.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvParamGrid.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvRTParams.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvRTrees.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvSVM.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvSVMParams.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\CvStatModel.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\EM.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\ml\Ml.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\objdetect\CascadeClassifier.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\objdetect\HOGDescriptor.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\objdetect\Objdetect.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\photo\Photo.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\unity\Utils.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\utils\Converters.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\video\BackgroundSubtractor.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\video\BackgroundSubtractorMOG.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\video\BackgroundSubtractorMOG2.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\video\KalmanFilter.cs" />
+     <Compile Include="Assets\OpenCVForUnity\org\opencv\video\Video.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonGUILayoutToolBarWithPlayers.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonGUILayoutToolBarWithRooms.cs" />
      <Compile Include="Assets\Photon Unity Networking\PlayMaker\Actions\PhotonNetworkConnectManually.cs" />
@@ -743,8 +832,10 @@
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenShakeScale.cs" />
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenStop.cs" />
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
-     <Compile Include="Assets\Scripts\GrabObject.cs" />
-     <Compile Include="Assets\Scripts\MouseMove2D.cs" />
+     <Compile Include="Assets\Simple Webcam\Scripts\DEMOSceneSelecter.cs" />
+     <Compile Include="Assets\Simple Webcam\Scripts\Webcam.cs" />
+     <Compile Include="Assets\Simple Webcam\Scripts\WebcamWebPlayer.cs" />
+     <Compile Include="Assets\Simple Webcam\Scripts\WebcamWebPlayerController.cs" />
      <Compile Include="Assets\Universal Chroma Key Shader\Sample Scene\controls.cs" />
      <Compile Include="Assets\Universal Chroma Key Shader\Sample Scene\play.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
@@ -752,12 +843,14 @@
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
-     <None Include="Assets\Completed\Simple Webcam\Readme.txt" />
+     <None Include="Assets\Simple Webcam\Readme.txt" />
      <None Include="Assets\Facetracking Starter Kit\readme.txt" />
      <None Include="Assets\Universal Chroma Key Shader\Chroma Key.shader" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\OpenCVForUnity\iOS for Xcode\haarcascade_frontalface_alt.xml" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Plugins\Android\assets\haarcascade_frontalface_alt.xml" />
      <None Include="Assets\Universal Chroma Key Shader\Readme.txt" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\Shaders\White.shader" />
@@ -766,13 +859,13 @@
  <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="DataConverter">
- <HintPath>/Users/WelchCompositions/New Unity Project 4/Assets/Facetracking Starter Kit/Scripts/Kinect/DataConverter.dll</HintPath>
+ <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/Facetracking Starter Kit/Scripts/Kinect/DataConverter.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/WelchCompositions/New Unity Project 4/Assets/Photon Unity Networking/Plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/Photon Unity Networking/Plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>/Users/WelchCompositions/New Unity Project 4/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

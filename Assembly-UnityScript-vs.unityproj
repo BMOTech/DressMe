@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B36761A3-BC29-0FD5-9523-C53567FD6B73}</ProjectGuid>
+	<ProjectGuid>{FE0E4F53-3ACC-9150-643A-79F19B068834}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,16 +47,21 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DragObject.js" />
+     <Compile Include="Assets\Scripts\DragObject2.js" />
+     <Compile Include="Assets\Scripts\pringSelectedItem2.js" />
+     <Compile Include="Assets\Scripts\sizeDecrease.js" />
      <None Include="Assets\Photon Unity Networking\PlayMaker\ReleaseNotes.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
-     <None Include="Assets\Completed\Simple Webcam\Readme.txt" />
+     <None Include="Assets\Simple Webcam\Readme.txt" />
      <None Include="Assets\Facetracking Starter Kit\readme.txt" />
      <None Include="Assets\Universal Chroma Key Shader\Chroma Key.shader" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\OpenCVForUnity\iOS for Xcode\haarcascade_frontalface_alt.xml" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Plugins\Android\assets\haarcascade_frontalface_alt.xml" />
      <None Include="Assets\Universal Chroma Key Shader\Readme.txt" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\Shaders\White.shader" />
@@ -65,13 +70,13 @@
  <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="DataConverter">
- <HintPath>/Users/WelchCompositions/New Unity Project 4/Assets/Facetracking Starter Kit/Scripts/Kinect/DataConverter.dll</HintPath>
+ <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/Facetracking Starter Kit/Scripts/Kinect/DataConverter.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/WelchCompositions/New Unity Project 4/Assets/Photon Unity Networking/Plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/Photon Unity Networking/Plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>/Users/WelchCompositions/New Unity Project 4/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
