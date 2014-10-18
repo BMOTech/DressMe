@@ -832,6 +832,8 @@
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenShakeScale.cs" />
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenStop.cs" />
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
+     <Compile Include="Assets\Scripts\colorChangeOrange.cs" />
+     <Compile Include="Assets\Scripts\playAnimation.cs" />
      <Compile Include="Assets\Simple Webcam\Scripts\DEMOSceneSelecter.cs" />
      <Compile Include="Assets\Simple Webcam\Scripts\Webcam.cs" />
      <Compile Include="Assets\Simple Webcam\Scripts\WebcamWebPlayer.cs" />
