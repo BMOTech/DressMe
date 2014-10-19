@@ -764,6 +764,7 @@
      <Compile Include="Assets\PlayMaker\Actions\StringContains.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StringReplace.cs" />
      <Compile Include="Assets\PlayMaker\Actions\StringSwitch.cs" />
+     <Compile Include="Assets\PlayMaker\Actions\SwapSingleSprite.cs" />
      <Compile Include="Assets\PlayMaker\Actions\SwipeGestureEvent.cs" />
      <Compile Include="Assets\PlayMaker\Actions\TakeScreenshot.cs" />
      <Compile Include="Assets\PlayMaker\Actions\TestAction.cs" />
