@@ -1,10 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playAnimation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DragObject2.js">
     <Files>
-      <File FileName="Assets/Scripts/playAnimation.cs" Line="7" Column="25" />
-      <File FileName="Assets/Scripts/colorChangeOrange.cs" Line="11" Column="32" />
-      <File FileName="Assets/Scripts/DragObject2.js" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/DragObject2.js" Line="46" Column="2" />
+      <File FileName="Assets/Scripts/playAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/colorChangeOrange.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DragObject2.js" Line="19" Column="27" />
+      <File FileName="Assets/PlayMaker/Actions/SwapSingleSprite.cs" Line="1" Column="1" />
+      <File FileName="Assets/PlayMaker/Actions/SetGameObject.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
