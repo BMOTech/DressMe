@@ -1,3 +1,4 @@
+/*
 using HutongGames.PlayMaker.Actions;
 using HutongGames.PlayMakerEditor;
 using UnityEditor;
@@ -89,3 +90,4 @@ public class iTweenMoveToActionEditor : CustomActionEditor
    
     }
 }
+*/
