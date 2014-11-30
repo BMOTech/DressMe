@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity 4.6 beta/Unity 4.6 beta.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity 4.6 beta/Unity 4.6 beta.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -96,10 +96,10 @@
      <None Include="Assets\Shaders\White.shader" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity 4.6 beta/Unity 4.6 beta.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Applications/Unity 4.6 beta/Unity 4.6 beta.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
@@ -147,7 +147,7 @@
  <HintPath>/Volumes/Projects/Personal and random projects/Play Without Boundaries/Mini Games/Dress Me/Local Copy/Dress Me/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>/Applications/Unity 4.6 beta/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>/Applications/Unity 4.6 beta/Unity 4.6 beta.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
